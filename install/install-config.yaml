@@ -10,7 +10,7 @@ compute:
         metadataService: {}
         rootVolume:
           iops: 2000
-          size: 500
+          size: 200
           type: io1
         type: m5.4xlarge
         zones:
@@ -27,7 +27,7 @@ controlPlane:
       metadataService: {}
       rootVolume:
         iops: 4000
-        size: 500
+        size: 200
         type: io1
       type: m5.2xlarge
       zones:
