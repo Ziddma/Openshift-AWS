@@ -10,13 +10,13 @@ compute:
         metadataService: {}
         rootVolume:
           iops: 2000
-          size: 200
+          size: 200 #CHANGES THIS#
           type: io1
         type: m5.4xlarge
         zones:
-          - ap-southeast-1a
-          - ap-southeast-1b
-          - ap-southeast-1c
+          - ap-southeast-1a #CHANGES THIS#
+          - ap-southeast-1b #CHANGES THIS#
+          - ap-southeast-1c #CHANGES THIS#
     replicas: 3
 controlPlane:
   architecture: amd64
@@ -27,13 +27,13 @@ controlPlane:
       metadataService: {}
       rootVolume:
         iops: 4000
-        size: 200
+        size: 200 #CHANGES THIS#
         type: io1
       type: m5.2xlarge
       zones:
-        - ap-southeast-1a
-        - ap-southeast-1b
-        - ap-southeast-1c
+        - ap-southeast-1a #CHANGES THIS#
+        - ap-southeast-1b #CHANGES THIS#
+        - ap-southeast-1c #CHANGES THIS#
   replicas: 3
 metadata:
   creationTimestamp: null
@@ -52,12 +52,12 @@ platform:
     region: ap-southeast-1
     lbtype: NLB
     subnets:
-      - subnet-....
-      - subnet-....
-      - subnet-....
-      - subnet-....
-      - subnet-....
-      - subnet-....
+      - subnet-.... #CHANGES THIS#
+      - subnet-.... #CHANGES THIS#
+      - subnet-.... #CHANGES THIS#
+      - subnet-.... #CHANGES THIS#
+      - subnet-.... #CHANGES THIS#
+      - subnet-.... #CHANGES THIS#
 publish: External
 pullSecret: '{"auths": ...}'
 sshKey: 'ssh-ed25519 AAAA...'
