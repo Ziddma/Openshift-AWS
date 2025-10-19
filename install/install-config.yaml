@@ -37,7 +37,7 @@ controlPlane:
   replicas: 3
 metadata:
   creationTimestamp: null
-  name: name-cluster
+  name: <cluster-name> #CHANGES THIS#
 networking:
   clusterNetwork:
     - cidr: 10.128.0.0/14
